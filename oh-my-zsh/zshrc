@@ -71,7 +71,7 @@ zstyle ':omz:update' frequency 13
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+ZSH_CUSTOM=$HOME/.config/oh-my-zsh
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -85,8 +85,9 @@ plugins=(
     common-aliases
     zsh-autosuggestions
     zsh-syntax-highlighting
+    zsh-history-substring-search
 )
-source /home/kclark/tmp/zsh-syntax-highlighting/themes/catppuccin_mocha-zsh-syntax-highlighting.zsh
+#source $HOME/tmp/zsh-syntax-highlighting/themes/catppuccin_mocha-zsh-syntax-highlighting.zsh
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
