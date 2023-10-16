@@ -113,6 +113,7 @@ return {
 
     -- configure python server
     lspconfig["pyright"].setup({
+      cmd = {vim.fn.expand("~/.local/share/nvim/mason/packages/pyright/node_modules/pyright/langserver.index.js"), "--stdio"},
       capabilities = capabilities,
       on_attach = on_attach,
     })
