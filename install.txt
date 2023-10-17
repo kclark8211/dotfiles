@@ -12,6 +12,10 @@ mingw32-make install
 export PATH=~/neovim/bin:$PATH
 # end msys -------------------------------------------------------------------
 
+# config git
+git config --global core.editor "nvim"
+git config --global user.email "kclark8211@gmail.com"
+git config --global user.name "Kevin Clark"
 
 # install neovim - ubuntu
 sudo apt upgrade
