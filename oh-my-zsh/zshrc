@@ -122,12 +122,9 @@ set -o vi
 export PATH=/home/kclark/neovim/bin:$PATH
 export ECN_ENVIRONMENT=${USER}_bzx
 export PGCONNECT_TIMEOUT=5
-
+export EDITOR=nvim
 
 alias vi=nvim
 alias vim=nvim
 alias site_syseng="cd ~/systems/syseng_code/python/site_syseng"
 alias nvim_config="nvim ~/.config/nvim"
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
