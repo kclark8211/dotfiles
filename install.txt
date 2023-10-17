@@ -46,6 +46,13 @@ git clone \
     ~/.config/oh-my-zsh/plugins/zsh-autosuggestions
 
 git clone --depth=1 \
+    https://github.com/spaceship-prompt/spaceship-prompt.git \
+    "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+ln -s \
+    "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" \
+    "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+
+git clone --depth=1 \
     https://github.com/romkatv/powerlevel10k.git \
     ~/.config/oh-my-zsh/themes/powerlevel10k
 
