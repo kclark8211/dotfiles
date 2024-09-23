@@ -2,3 +2,4 @@ tmux/plugins/*
 oh-my-zsh/plugins/*
 oh-my-zsh/themes/*
 lxc/*
+compiler

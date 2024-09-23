@@ -119,7 +119,8 @@ source $ZSH/oh-my-zsh.sh
 #
 set -o vi
 
-export PATH=/home/kclark/neovim/bin:$PATH
+export PATH=/home/kclark/neovim/bin:/home/kclark/systems/syseng_code/bin:$PATH
+export PYTHONPATH=/home/kclark/systems/syseng_code/python:$PYTHONPATH
 export ECN_ENVIRONMENT=${USER}_bzx
 export PGCONNECT_TIMEOUT=5
 export EDITOR=nvim
