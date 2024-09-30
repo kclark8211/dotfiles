@@ -10,7 +10,7 @@ return {
       ollama = {
         ["local"] = true,
         endpoint = "192.168.86.103:11434/v1",
-        model = "llama3.2",
+        model = "codellama",
         parse_curl_args = function(opts, code_opts)
           return {
             url = opts.endpoint .. "/chat/completions",
